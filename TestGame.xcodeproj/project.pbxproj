@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4647B33B535556551CFEE13E /* libPods-TestGame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 283FCE85C613173FA73CDD7D /* libPods-TestGame.a */; };
+		FB92B94127F9289900B83DEF /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB92B94027F9289900B83DEF /* GradientButton.swift */; };
 		FBA5B2FF27F74986000A0EAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA5B2FE27F74986000A0EAB /* AppDelegate.swift */; };
 		FBA5B30127F74986000A0EAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA5B30027F74986000A0EAB /* SceneDelegate.swift */; };
 		FBA5B30327F74986000A0EAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA5B30227F74986000A0EAB /* ViewController.swift */; };
-		FBA5B30627F74986000A0EAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA5B30427F74986000A0EAB /* Main.storyboard */; };
 		FBA5B30827F74989000A0EAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBA5B30727F74989000A0EAB /* Assets.xcassets */; };
 		FBA5B30B27F74989000A0EAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBA5B30927F74989000A0EAB /* LaunchScreen.storyboard */; };
+		FBE93CA527F835B700670281 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE93CA427F835B700670281 /* Model.swift */; };
+		FBE93CA727F8369E00670281 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE93CA627F8369E00670281 /* NetworkManager.swift */; };
+		FBE93CA927F8378D00670281 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE93CA827F8378D00670281 /* Enums.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		283FCE85C613173FA73CDD7D /* libPods-TestGame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestGame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4486F5FE52E27F69E51846BF /* Pods-TestGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestGame.release.xcconfig"; path = "Target Support Files/Pods-TestGame/Pods-TestGame.release.xcconfig"; sourceTree = "<group>"; };
+		57656260A7926AB8658C4F1F /* Pods-TestGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestGame.debug.xcconfig"; path = "Target Support Files/Pods-TestGame/Pods-TestGame.debug.xcconfig"; sourceTree = "<group>"; };
+		FB92B94027F9289900B83DEF /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
 		FBA5B2FB27F74986000A0EAB /* TestGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBA5B2FE27F74986000A0EAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBA5B30027F74986000A0EAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		FBA5B30227F74986000A0EAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FBA5B30527F74986000A0EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FBA5B30727F74989000A0EAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBA5B30A27F74989000A0EAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBA5B30C27F74989000A0EAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBE93CA427F835B700670281 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		FBE93CA627F8369E00670281 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		FBE93CA827F8378D00670281 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,86 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4647B33B535556551CFEE13E /* libPods-TestGame.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		72161557D8383BE75E86D9B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57656260A7926AB8658C4F1F /* Pods-TestGame.debug.xcconfig */,
+				4486F5FE52E27F69E51846BF /* Pods-TestGame.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		77287B640F302D00A511572E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				283FCE85C613173FA73CDD7D /* libPods-TestGame.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FB92B94627F96B5100B83DEF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FBA5B2FE27F74986000A0EAB /* AppDelegate.swift */,
+				FBA5B30027F74986000A0EAB /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		FB92B94727F96B5D00B83DEF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FBA5B30227F74986000A0EAB /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FB92B94827F96B6600B83DEF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FBE93CA427F835B700670281 /* Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FB92B94927F96B6E00B83DEF /* CastomViews */ = {
+			isa = PBXGroup;
+			children = (
+				FB92B94027F9289900B83DEF /* GradientButton.swift */,
+			);
+			path = CastomViews;
+			sourceTree = "<group>";
+		};
+		FB92B94A27F96B8200B83DEF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FBE93CA627F8369E00670281 /* NetworkManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FB92B94B27F96B8E00B83DEF /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				FBE93CA827F8378D00670281 /* Enums.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
 		FBA5B2F227F74986000A0EAB = {
 			isa = PBXGroup;
 			children = (
 				FBA5B2FD27F74986000A0EAB /* TestGame */,
 				FBA5B2FC27F74986000A0EAB /* Products */,
+				72161557D8383BE75E86D9B6 /* Pods */,
+				77287B640F302D00A511572E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +135,12 @@
 		FBA5B2FD27F74986000A0EAB /* TestGame */ = {
 			isa = PBXGroup;
 			children = (
-				FBA5B2FE27F74986000A0EAB /* AppDelegate.swift */,
-				FBA5B30027F74986000A0EAB /* SceneDelegate.swift */,
-				FBA5B30227F74986000A0EAB /* ViewController.swift */,
-				FBA5B30427F74986000A0EAB /* Main.storyboard */,
+				FB92B94627F96B5100B83DEF /* App */,
+				FB92B94727F96B5D00B83DEF /* Controllers */,
+				FB92B94927F96B6E00B83DEF /* CastomViews */,
+				FB92B94827F96B6600B83DEF /* Models */,
+				FB92B94A27F96B8200B83DEF /* Services */,
+				FB92B94B27F96B8E00B83DEF /* Enums */,
 				FBA5B30727F74989000A0EAB /* Assets.xcassets */,
 				FBA5B30927F74989000A0EAB /* LaunchScreen.storyboard */,
 				FBA5B30C27F74989000A0EAB /* Info.plist */,
@@ -74,6 +155,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FBA5B30F27F74989000A0EAB /* Build configuration list for PBXNativeTarget "TestGame" */;
 			buildPhases = (
+				99549AFA7F22BDD758314F59 /* [CP] Check Pods Manifest.lock */,
 				FBA5B2F727F74986000A0EAB /* Sources */,
 				FBA5B2F827F74986000A0EAB /* Frameworks */,
 				FBA5B2F927F74986000A0EAB /* Resources */,
@@ -127,34 +209,54 @@
 			files = (
 				FBA5B30B27F74989000A0EAB /* LaunchScreen.storyboard in Resources */,
 				FBA5B30827F74989000A0EAB /* Assets.xcassets in Resources */,
-				FBA5B30627F74986000A0EAB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		99549AFA7F22BDD758314F59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FBA5B2F727F74986000A0EAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB92B94127F9289900B83DEF /* GradientButton.swift in Sources */,
 				FBA5B30327F74986000A0EAB /* ViewController.swift in Sources */,
 				FBA5B2FF27F74986000A0EAB /* AppDelegate.swift in Sources */,
+				FBE93CA727F8369E00670281 /* NetworkManager.swift in Sources */,
 				FBA5B30127F74986000A0EAB /* SceneDelegate.swift in Sources */,
+				FBE93CA927F8378D00670281 /* Enums.swift in Sources */,
+				FBE93CA527F835B700670281 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		FBA5B30427F74986000A0EAB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FBA5B30527F74986000A0EAB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FBA5B30927F74989000A0EAB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +386,7 @@
 		};
 		FBA5B31027F74989000A0EAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57656260A7926AB8658C4F1F /* Pods-TestGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -294,7 +397,6 @@
 				INFOPLIST_FILE = TestGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +414,7 @@
 		};
 		FBA5B31127F74989000A0EAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4486F5FE52E27F69E51846BF /* Pods-TestGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +425,6 @@
 				INFOPLIST_FILE = TestGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
